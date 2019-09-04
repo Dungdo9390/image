@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LoginPage from './pages/login/login';
 
 function Abb() {
   return (
-<div>
-  <div></div>
-  <div></div>
-  <div></div>
+<div className='App'>
+  <LoginPage></LoginPage>
 </div>
   );
 }
