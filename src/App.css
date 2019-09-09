@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  padding: 0;
+}
+
+.App .footer {
+  height: 50px;
+  width: 100%;
+  background: blue;
+  position: absolute;
+  bottom: 0;
 }
 
 .App-logo {
