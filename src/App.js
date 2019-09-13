@@ -3,13 +3,12 @@ import './App.css';
 import MainRouter from './config/router';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import MenuBar from './components/menu-bar/menu-bar';
 
 function Abb() {
   return (
     <div className='App'>
-      <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="/login">Navbar</a>
-      </nav>
+      <MenuBar></MenuBar>
       <MainRouter></MainRouter>
       <Header></Header>
       <Footer></Footer>

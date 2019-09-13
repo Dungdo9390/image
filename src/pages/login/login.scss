@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+   }
+   body {
+    padding: 0;
+    margin: 0;
+   }
+   .main {
+    background: #c2c2c2;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding: 10% 15% 5% 15%;
+    .login {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      background: red;
+      position: relative;
+      .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: blue;
+        left: 50%;
+        margin-left: -75px;
+        margin-top: -75px;
+        position: absolute;
+      }
+    }
+   }
