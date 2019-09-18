@@ -23,7 +23,7 @@ class Auth extends React.Component{
     render(){
         return (
             <React.Fragment>
-
+                {this.renderRedirectTo()}
             </React.Fragment>
 
         )

@@ -12,7 +12,7 @@ function Abb() {
       <MenuBar></MenuBar>
       <MainRouter></MainRouter>
       <Header></Header>
-      <ProfilePage><</ProfilePage>
+      <ProfilePage></ProfilePage>
       <Footer></Footer>
       <div className='footer'></div>
     </div>
