@@ -12,7 +12,10 @@ export const en = {
         password: 'Password',
         search: 'Search',
         blog:'Blog',
-        prescription_medication: 'Prescription Medication', 
+        prescription_medication: 'Prescription Medication',
+        non_prescription_drugs: 'Non-prescription Drugs',
+        functional_foods: 'Functional Foods',
+        cosmetics: 'Cosmetics',
         vi: 'Tiếng Việt',
         en: 'Tiếng Anh'  
 }
