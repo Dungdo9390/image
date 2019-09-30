@@ -26,18 +26,18 @@ class MenuBar extends React.Component {
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
            <Nav className="mr-auto">
-             <Nav.Link href="/">className='w-home'>{locale.home}</Nav.Link>
-             <NavDropdown title={locale.product} id="basic-nav-dropdown">
+             <Nav.Link href="/" className='w-home'>{locale.home}</Nav.Link>
+             <NavDropdown className='w-course' title={locale.product} id="basic-nav-dropdown">
                <NavDropdown.Item href="#">{locale.prescription_medication}</NavDropdown.Item>
                <NavDropdown.Item href="#">{locale.non_prescription_drugs}</NavDropdown.Item>
                <NavDropdown.Item href="#">{locale.functional_foods}</NavDropdown.Item>
                <NavDropdown.Divider />
                <NavDropdown.Item href="#">{locale.cosmetics}</NavDropdown.Item>
              </NavDropdown>
-             <Nav.Link href="/blog">{locale.blog}</Nav.Link>
-             <Nav.Link href="/gioi-thieu">{locale.profile}</Nav.Link>
-             <Nav.Link href="/tuyen-dung">{locale.hiring}</Nav.Link>
-             <Nav.Link href="/lien-he">{locale.contact}</Nav.Link>
+             <Nav.Link className= 'w-blog' href="/blog">{locale.blog}</Nav.Link>
+             <Nav.Link className= 'w-gioi-thieu' href="/gioi-thieu">{locale.profile}</Nav.Link>
+             <Nav.Link className= 'w-tuyen-dung' href="/tuyen-dung">{locale.hiring}</Nav.Link>
+             <Nav.Link className = 'w-lien-he' href="/lien-he">{locale.contact}</Nav.Link>
            </Nav>
            <Form inline>
              <FormControl type="text" placeholder={locale.search} className="mr-sm-2" />
