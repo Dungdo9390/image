@@ -26,7 +26,7 @@ class MenuBar extends React.Component {
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
            <Nav className="mr-auto">
-             <Nav.Link href="/">{locale.home}</Nav.Link>
+             <Nav.Link href="/">className='w-home'>{locale.home}</Nav.Link>
              <NavDropdown title={locale.product} id="basic-nav-dropdown">
                <NavDropdown.Item href="#">Tiếng Hàn</NavDropdown.Item>
                <NavDropdown.Item href="#">Web Design</NavDropdown.Item>
