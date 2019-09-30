@@ -11,7 +11,10 @@ export const vi = {
     password: 'Mật Khẩu',
     search: 'Tìm Kiếm',
     blog:'Blog',
-    prescription_medication: 'Thuốc kê đơn',
+    prescription_medication: 'Thuốc Kê Đơn',
+    non_prescription_drugs: 'Thuốc Không Kê Đơn',
+    functional_foods: 'Thực Phẩm Chức Năng',
+    cosmetics:'Mỹ Phẩm',
     vi: 'Tiếng Việt',
     en: 'Tiếng Anh'
 

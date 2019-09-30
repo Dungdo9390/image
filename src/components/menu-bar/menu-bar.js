@@ -28,11 +28,11 @@ class MenuBar extends React.Component {
            <Nav className="mr-auto">
              <Nav.Link href="/">className='w-home'>{locale.home}</Nav.Link>
              <NavDropdown title={locale.product} id="basic-nav-dropdown">
-               <NavDropdown.Item href="#">Tiếng Hàn</NavDropdown.Item>
-               <NavDropdown.Item href="#">Web Design</NavDropdown.Item>
-               <NavDropdown.Item href="#">Mobile</NavDropdown.Item>
+               <NavDropdown.Item href="#">{locale.prescription_medication}</NavDropdown.Item>
+               <NavDropdown.Item href="#">{locale.non_prescription_drugs}</NavDropdown.Item>
+               <NavDropdown.Item href="#">{locale.functional_foods}</NavDropdown.Item>
                <NavDropdown.Divider />
-               <NavDropdown.Item href="#">Fullstack Developer</NavDropdown.Item>
+               <NavDropdown.Item href="#">{locale.cosmetics}</NavDropdown.Item>
              </NavDropdown>
              <Nav.Link href="/blog">{locale.blog}</Nav.Link>
              <Nav.Link href="/gioi-thieu">{locale.profile}</Nav.Link>
