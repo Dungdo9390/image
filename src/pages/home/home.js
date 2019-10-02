@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import './home.scss';
+import Header from '../../components/header/header';
 
-class HomePage extends React.Component{
+
+class HomePage extends React.Component {
     render() {
-        return(
-        <React.Fragment>
-            <div>Home Page</div>
-            <Button onClick={(e) => this.onClick(e)}>Logout</Button>
+        return (       
+            <React.Fragment>    
+              <Header></Header>           
             </React.Fragment>
         )
     }

@@ -31,7 +31,7 @@ ListenService.onChangeLang().subscribe(
       <div className='App'>
         <MenuBar></MenuBar>
         <MainRouter></MainRouter>
-        <Header></Header>
+
         <ProfilePage></ProfilePage>
         <Footer></Footer>
         <div className='footer'></div>
