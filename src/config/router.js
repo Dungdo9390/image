@@ -22,7 +22,7 @@ const MainRouter = () => (
 
                     }></Route>
                     <Route path='/login' exact component={ LoginPage}></Route>
-                    <Route path='/profile' exact component={ ProfilePage}></Route>
+                    <Route path='/gioi-thieu' exact component={ ProfilePage}></Route>
                     <Route path='/dashboard' exact component={ DashboardPage}></Route>
                     <Route path='/home' exact component={ HomePage}></Route>
                     <Route path='/tuyen-dung' component={ TuyenDung}></Route>

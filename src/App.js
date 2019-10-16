@@ -32,7 +32,7 @@ ListenService.onChangeLang().subscribe(
         <MenuBar></MenuBar>
         <MainRouter></MainRouter>
 
-        <ProfilePage></ProfilePage>
+        {/* <ProfilePage></ProfilePage> */}
         <Footer></Footer>
         <div className='footer'></div>
       </div>

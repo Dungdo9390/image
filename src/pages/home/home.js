@@ -6,9 +6,11 @@ import Header from '../../components/header/header';
 
 class HomePage extends React.Component {
     render() {
-        return (       
-            <React.Fragment>    
-              <Header></Header>           
+        return ( 
+                
+            <React.Fragment>   
+              <Header>
+            </Header>           
             </React.Fragment>
         )
     }
